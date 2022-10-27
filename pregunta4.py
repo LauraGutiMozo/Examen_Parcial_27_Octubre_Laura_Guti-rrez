@@ -23,21 +23,19 @@ class clasificar:
             return f"El alumno ha aprobado"
         if nota <= 5:
             return f"El alumno ha suspendido"
-        
 
-
-
-if __name__=="__main__":
-
+def alumnos():        
     alumno1 = clasificar("Carlos",3)
     print (alumno1)
-    alumno2c= clasificar("Juan",5)
-    print (alumno1)
+    alumno2= clasificar("Juan",5)
+    print (alumno2)
     alumno3 = clasificar("Laura",10)
-    print (alumno1)
-    
-    
-    clasificacion()
+    print (alumno3)
+    return clasificar
+
+if __name__=="__main__":
+    alumnos()
+
 
 
 
