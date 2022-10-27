@@ -29,11 +29,11 @@ class clasificar:
 
 if __name__=="__main__":
 
-    alumno1 = alumno("Carlos",3)
+    alumno1 = clasificar("Carlos",3)
     print (alumno1)
-    alumno2c= alumno("Juan",5)
+    alumno2c= clasificar("Juan",5)
     print (alumno1)
-    alumno3 = alumno("Laura",10)
+    alumno3 = clasificar("Laura",10)
     print (alumno1)
     
     
