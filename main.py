@@ -7,3 +7,4 @@ if __name__=="__main__":
     clasificacion(alumno1)
     clasificacion(alumno2)
     clasificacion(alumno2)
+    
