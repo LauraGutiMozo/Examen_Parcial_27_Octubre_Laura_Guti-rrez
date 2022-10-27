@@ -8,3 +8,10 @@ if __name__=="__main__":
     clasificacion(alumno2)
     clasificacion(alumno2)
     
+
+    class clasificar:  
+    def __init__(self,nombre,nota):
+        alumno.__init__(self,nombre,nota)  
+
+    def __str__(self):
+        return f"{self.clasificacion}"

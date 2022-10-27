@@ -10,24 +10,37 @@ class alumno:
         return f"El alumno se llama {self.nombre}, y tiene una nota de {self.nota}"
 
 
+
 class clasificar:  
     def __init__(self,nombre,nota):
         alumno.__init__(self,nombre,nota)  
 
     def __str__(self):
         return f"{self.clasificacion}"
-
     def clasificacion(self,nombre,nota):  
         alumno.__init__ (self,nombre,nota)
         if nota >= 5:
-            print (f"El alumno ha aprobado")
+            return f"El alumno ha aprobado"
         if nota <= 5:
-            print (f"El alumno ha suspendido")
+            return f"El alumno ha suspendido"
+        
 
 
-alumno1 = clasificar("Carlos",3)
-print(alumno1)
-clasificar()
+
+if __name__=="__main__":
+
+    alumno1 = alumno("Carlos",3)
+    print (alumno1)
+    alumno2c= alumno("Juan",5)
+    print (alumno1)
+    alumno3 = alumno("Laura",10)
+    print (alumno1)
+    
+    
+    clasificacion()
+
+
+
 
 
 
