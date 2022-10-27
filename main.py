@@ -1,3 +1,6 @@
-from pregunta4 import alumnos
+from Pregunta3 import clasificacion
+from Pregunta3 import probando
+
 if __name__=="__main__":
-    alumnos()
+    clasificacion()
+    probando()

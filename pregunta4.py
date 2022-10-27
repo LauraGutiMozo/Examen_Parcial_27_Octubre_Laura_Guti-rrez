@@ -1,5 +1,3 @@
-
-
 class alumno:
     def __init__(self,nombre,nota):
         self.nombre =nombre
@@ -35,6 +33,7 @@ def alumnos():
 
 if __name__=="__main__":
     alumnos()
+    clasificacion()
 
 
 
